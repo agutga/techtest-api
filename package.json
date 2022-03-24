@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "bestzip wunderdogs-techtest.zip ./*"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "bestzip": "^2.2.0",
+    "mysql2": "^2.2.5",
+    "serverless-mysql": "^1.5.4"
   }
 }

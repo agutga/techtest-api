@@ -1,1 +1,3 @@
-./Start.sql
+node_modules
+.vscode
+*wunderdogs-techtest.zip
